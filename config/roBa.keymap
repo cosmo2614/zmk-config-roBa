@@ -83,7 +83,7 @@
 &kp Q             &kp L         &kp U         &kp COMMA    &kp PERIOD                                               &kp F        &kp W  &lt 5 R  &kp Y  &kp P
 &mt LC(A) E       &kp I         &mt AT A      &mt LC(F) O  &kp MINUS      &kp LS(LG(S))      &kp SLASH              &kp K        &kp T  &kp N    &kp S  &kp H
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp SEMICOLON  &kp TAB            &kp CAPSLOCK           &kp G        &kp D  &kp M    &kp J  &kp B
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mo 1        &mo 3          &mo 2              &mt RIGHT_SHIFT SPACE  &lt 1 ENTER                         &kp BACKSPACE
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mo 1        &to 3          &mo 2              &mt RIGHT_SHIFT SPACE  &lt 1 ENTER                         &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -113,7 +113,7 @@
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                      &kp AT_SIGN      &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp LEFT_BRACKET   &kp LEFT_BRACE   &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp GRAVE
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp LA(LEFT)                 &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &kp BACKSLASH
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp LA(LEFT)                 &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &kp CARET
 &trans                      &trans           &kp EQUAL        &kp PRINTSCREEN  &to 0         &trans                       &kp HOME           &kp END                                                                        &kp DEL
             >;
 
